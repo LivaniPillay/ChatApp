@@ -1,0 +1,20 @@
+doctype html
+html
+  block head
+  title= "Chat Application"
+  link(rel='stylesheet', href='stylesheets/style.css')
+  script(src="/socket.io/socket.io.js")
+  script(src="/javascripts/jquery/jquery-1.7.min.js")
+  script(src="javascripts/chat.js")
+  body
+  block content
+
+    label(for="userName") User name: 
+    input#username(type="text")
+    button#join.btn Join
+    br
+    br
+    ul#messages
+    input#message(autocomplete = "off")
+    button#post.btn Post
+    br

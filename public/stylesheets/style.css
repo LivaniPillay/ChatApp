@@ -1,0 +1,11 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+input { border: 10; padding: 10px; width: 90%; margin-right: 0.5%; }
+button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; height:37px; margin-left: 5px; }
+#messages { list-style-type: none; padding: 0; }
+#messages li { padding: 5px 10px; margin-bottom: 10px; background: #eee;}
+#username {width: 20%;}
+.adminMessage{color:green;}
+.date{float: right;}
+.hide{display: none;}
+.show{display: inline;}
